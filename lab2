@@ -1,47 +1,56 @@
-  GNU nano 6.2                                                                                        lab2                                                                                                 
-aleksandr@aleksandr-NBM-WXX9:~$ mkdir sea?men
-aleksandr@aleksandr-NBM-WXX9:~$ touch dr.txt
-aleksandr@aleksandr-NBM-WXX9:~$ pwd
-/home/aleksandr
-aleksandr@aleksandr-NBM-WXX9:~$ ls
- deletes   dr.txt    goga          iriska.save   player10.py   shell   test1   Документы   Изображения   Общедоступные   Шаблоны
- derevo    example   interesting   lab3         'sea?men'      snap    Видео   Загрузки    Музыка       'Рабочий стол'
-aleksandr@aleksandr-NBM-WXX9:~$ cd goga
-aleksandr@aleksandr-NBM-WXX9:~/goga$ ls -la
-итого 44
-drwxrwxr-x  3 aleksandr aleksandr 4096 сен 18 19:35 .
-drwxr-x--- 23 aleksandr aleksandr 4096 сен 19 12:24 ..
--rwxrwxr-x  1 aleksandr aleksandr  187 сен 18 19:33 building
--rwxrwxr-x  1 aleksandr aleksandr  188 сен 18 19:35 building.save
-drwxrwxr-x  2 aleksandr aleksandr 4096 сен 12 19:54 jojo
--rw-------  1 aleksandr aleksandr    1 сен 18 17:31 kloaka.save
--rwxrwxr-x  1 aleksandr aleksandr   92 сен 18 16:44 maks.txt
--rwxrwxr-x  1 aleksandr aleksandr  216 сен 18 16:58 maks.txt.save
--rw-------  1 aleksandr aleksandr   34 сен 18 17:56 startkit.txt.save
--rw-------  1 aleksandr aleksandr   59 сен 18 18:00 startkit.txt.save.save
--rw-rw-r--  1 aleksandr aleksandr    0 сен 12 19:47 test.txt
--rw-rw-r--  1 aleksandr aleksandr   44 сен 12 19:50 test.txty
-aleksandr@aleksandr-NBM-WXX9:~/goga$ cd
-aleksandr@aleksandr-NBM-WXX9:~$ nano dr.txt
-aleksandr@aleksandr-NBM-WXX9:~$ cat dr.txt
-call
-aleksandr@aleksandr-NBM-WXX9:~$
-aleksandr@aleksandr-NBM-WXX9:~$ ls
- 12345     derevo   example   interesting   lab2   player10.py   shell   test1   Документы   Изображения   Общедоступные   Шаблоны
- deletes   dr.txt   goga      kloaka.save   lab3  'sea?men'      snap    Видео   Загрузки    Музыка       'Рабочий стол'
-aleksandr@aleksandr-NBM-WXX9:~$ nano dr.txty
-aleksandr@aleksandr-NBM-WXX9:~$ emacs dr.txt
-aleksandr@aleksandr-NBM-WXX9:~$ mv player10.py goga
-aleksandr@aleksandr-NBM-WXX9:~$ cp shell dr.txt
-aleksandr@aleksandr-NBM-WXX9:~$ grep -v '.txt'
-kuh
-kuh
-
-
-c^C
-aleksandr@aleksandr-NBM-WXX9:~$ find lab2
-lab2
-aleksandr@aleksandr-NBM-WXX9:~$ stdin <shell<12345
-stdin: команда не найдена
-aleksandr@aleksandr-NBM-WXX9:~$ cat shell > 12345
-aleksandr@aleksandr-NBM-WXX9:~$
+mkdir -p /home/aleksandr/rurik1
+mkdir -p /home/aleksandr/rurik1/igor2
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/oleg4
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/yaropolk4
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/visheslav5
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/izyaslav5
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/svyatopolk5
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/vsevolod5
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/svyatoslav5
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/mstislav5
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/sydislav5
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/boris5
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/stanislav5
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/svyatoslav5/yan6
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/mstislav5/evstafiy6
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/izyaslav5/bryachislav6
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/izyaslav5/vseslav6
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/izyaslav5/bryachislav6/vseslav7
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/ilya51
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/vladimir51
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/izyaslav51
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/svyatoslav51
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/vsevolod51
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/vyacheslav51
+mkdir -p /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/igor51
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/ilya51
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/vladimir51
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/izyaslav51
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/svyatoslav51
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/vsevolod51
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/vyacheslav51
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5/igor51
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/izyaslav5/bryachislav6/vseslav7
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/izyaslav5/bryachislav6
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/izyaslav5/vseslav6
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/svyatoslav5/yan6
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/mstislav5/evstafiy6
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/yaroslav5
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/vsevolod5
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/svyatoslav5
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/mstislav5
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/sydislav5
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/boris5
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/stanislav5
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/visheslav5
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/izyaslav5
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4/svyatopolk5
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/yaropolk4
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/vladimir4
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3/oleg4
+rmdir /home/aleksandr/rurik1/igor2/svyatoslav3
+rmdir /home/aleksandr/rurik1/igor2
+rmdir /home/aleksandr/rurik1
