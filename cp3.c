@@ -28,7 +28,7 @@ printf("________________________________________________________________________
         for (int n = 1; n < 100; n++) {
             taylor = powl(2, (n - 1)) * powl(x, (n - 1)) / powl(5, n);
             sum += taylor;
-            if (sum - function(x) < LDBL_EPSILON || i > 100) {
+            if (fabsl(sum - function(x)) < LDBL_EPSILON || i > 100) {
                 break;
             }
         }
